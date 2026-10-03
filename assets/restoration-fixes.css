@@ -64,3 +64,16 @@ html[data-theme] #gerald .gerald-memory-grid figcaption{color:#392d4e!important;
 html[data-theme] #updates :is(.eyebrow,h2 em,.entry-number){color:var(--ink)!important}
 html[data-theme] #updates .entry summary::after{color:inherit!important}
 @media(max-width:600px){html[data-theme] .top nav{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important}html[data-theme] .top nav :is(a,button){justify-content:flex-start!important;padding:9px!important;font-size:.85rem!important}}
+
+/* Resolve icon masks relative to this stylesheet. */
+html[data-theme] .top nav a[data-route="home"] .portfolio-nav-icon{mask-image:url("ui/home.svg")!important;-webkit-mask-image:url("ui/home.svg")!important}
+html[data-theme] .top nav a[data-route="games"] .portfolio-nav-icon{mask-image:url("ui/games.svg")!important;-webkit-mask-image:url("ui/games.svg")!important}
+html[data-theme] .top nav a[data-route="characters"] .portfolio-nav-icon{mask-image:url("ui/brand.svg")!important;-webkit-mask-image:url("ui/brand.svg")!important}
+html[data-theme] .top nav a[data-route="mascots"] .portfolio-nav-icon{mask-image:url("ui/brand.svg")!important;-webkit-mask-image:url("ui/brand.svg")!important}
+html[data-theme] .top nav a[data-route="records"] .portfolio-nav-icon{mask-image:url("ui/updates.svg")!important;-webkit-mask-image:url("ui/updates.svg")!important}
+html[data-theme] .top nav a[data-route="achievements"] .portfolio-nav-icon{mask-image:url("ui/games.svg")!important;-webkit-mask-image:url("ui/games.svg")!important}
+html[data-theme] .top nav a[data-route="gerald"] .portfolio-nav-icon{mask-image:url("ui/gerald.svg")!important;-webkit-mask-image:url("ui/gerald.svg")!important}
+html[data-theme] .top nav a[data-route="about"] .portfolio-nav-icon{mask-image:url("ui/brand.svg")!important;-webkit-mask-image:url("ui/brand.svg")!important}
+html[data-theme] .top nav a[data-route="settings"] .portfolio-nav-icon{mask-image:url("ui/settings.svg")!important;-webkit-mask-image:url("ui/settings.svg")!important}
+html[data-theme] .top nav a[data-route="updates"] .portfolio-nav-icon{mask-image:url("ui/updates.svg")!important;-webkit-mask-image:url("ui/updates.svg")!important}
+html[data-theme] .top nav #theme-open .portfolio-nav-icon{mask-image:url("ui/settings.svg")!important;-webkit-mask-image:url("ui/settings.svg")!important}
