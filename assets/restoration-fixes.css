@@ -92,3 +92,22 @@ html[data-theme="classic"] .top nav a[data-route="settings"] .portfolio-nav-icon
 html[data-theme="classic"] .top nav a[data-route="updates"] .portfolio-nav-icon{background-position:66.6667% 100%!important}
 html[data-theme="classic"] .top nav #theme-open .portfolio-nav-icon{background-position:100% 100%!important}
 @media(max-width:700px){html[data-theme="classic"] body{background-attachment:scroll!important}}
+
+/* Alex's older pseudo-icons must not duplicate illustrated-navigation images. */
+html[data-theme="alex"] .top nav a[data-route]::before,html[data-theme="alex"] .top nav #theme-open::before{content:none!important;display:none!important;background-image:none!important;mask:none!important}
+html[data-theme="alex"] .top nav a[data-route] .alex-nav-image,html[data-theme="alex"] .top nav #theme-open .alex-nav-image{display:none!important}
+
+/* Original illustrated menu symbols when unique room props are unavailable. */
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite] {background-image:url('default-icons/classic.png')!important;background-size:400% 200%!important;background-repeat:no-repeat!important;}
+
+/* Original illustrated menu symbols when unique room props are unavailable. */
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite] {background-image:url('default-icons/classic.png')!important;background-size:400% 200%!important;background-repeat:no-repeat!important;}
+
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite="0"] {background-position:0.0% 0%!important;}
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite="1"] {background-position:33.33333333333333% 0%!important;}
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite="2"] {background-position:66.66666666666666% 0%!important;}
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite="3"] {background-position:100.0% 0%!important;}
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite="4"] {background-position:0.0% 100%!important;}
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite="5"] {background-position:33.33333333333333% 100%!important;}
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite="6"] {background-position:66.66666666666666% 100%!important;}
+html[data-theme] .top nav .portfolio-nav-icon[data-sprite="7"] {background-position:100.0% 100%!important;}

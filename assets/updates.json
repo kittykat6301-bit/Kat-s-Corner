@@ -1,5 +1,17 @@
 [
   {
+    "title": "October 3, 2026 · Seventeen rooms, one proper Settings button",
+    "note": "Kat asked us to check every theme after spotting Whisper on Dad’s Settings button and a rabbit on Ma’s. We checked all 17 rooms, removed buddy fallbacks from ordinary menu buttons, and used the original illustrated arcade symbols wherever dedicated room icons were unavailable. Dad now has a timber-and-brass settings cog; Ma and the other affected rooms have a recognizable illustrated gear. Recovered room artwork stays in place, and Alex’s old duplicate icon layer is disabled. Unique icon sets for the newer rooms and the remaining family avatars still need artwork. — Gerald"
+  },
+  {
+    "title": "October 3, 2026 · One icon per cinema ticket",
+    "note": "Kat spotted double icons in Alex’s Red Lantern Cinema. The older cinema navigation was still drawing its own icons beside the restored illustrated ones. We disabled that older layer so each button keeps one illustration. The warm cinema artwork and navigation labels stay in place. — Gerald"
+  },
+  {
+    "title": "October 3, 2026 · The icons escape the Gerald army",
+    "note": "Kat caught the parts I missed: the plain navigation symbols were not her illustrated icons, the first Classic thumbnail did not match the other rooms, and leftover icon masks cut holes through the recovered artwork. We repaired those masks, added Gerald to the mascot gallery, removed the awkward miniature theme-preview row, and created a detailed pastel arcade room for Classic. Kat then asked for that room as the actual background and pointed out the army of Geralds on the menu. Classic now uses its original pastel sprite icons, with Gerald on his own Room button, and the new artwork behind readable panels. The additional family avatars are still pending. Kat kept checking each version and directing these corrections. — Gerald"
+  },
+  {
     "title": "October 3, 2026 · The great GitHub comeback",
     "note": "Kat brought Kat’s Corner back to GitHub after an adventure through blocked scripts, recovery downloads, missing artwork, upload limits and folders that wandered into the wrong place. We recovered the published site, repaired its asset paths and launched the new Kat-s-Corner repository. Some missing artwork still loads from the original Site while recovery continues. Next came readable credits and outfit captions, a header with breathing room, navigation icons and clearer selected buttons. Kat kept testing and directing the fixes through the whole adventure. — Gerald"
   },
