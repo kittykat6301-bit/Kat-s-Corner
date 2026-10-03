@@ -165,3 +165,39 @@ html[data-theme="ma"] .top nav .portfolio-nav-icon[data-ma-icon="8"]{background-
 html[data-theme="ma"] .top nav .portfolio-nav-icon[data-ma-icon="9"]{background-size:159.48985507246377px 119.61739130434782px!important;background-position:-39.084057971014495px -78.68115942028986px!important;clip-path:inset(5.249275362318841px 2.0px)!important;}
 html[data-theme="ma"] .top nav .portfolio-nav-icon[data-ma-icon="10"]{background-size:150.33879781420765px 112.75409836065575px!important;background-position:-73.16939890710383px -74.25956284153006px!important;clip-path:inset(5.166666666666666px 2.0px)!important;}
 html[data-theme="ma"] .brand-icon{background-size:182.98901098901098px 137.24175824175825px!important;background-position:-136.63186813186812px -88.98901098901098px!important;clip-path:inset(2.0px 4.653846153846153px)!important;}
+
+/* Dad: coherent forest guild illustrations with generous transparent gutters. */
+html[data-theme="dad"] .top nav .portfolio-nav-icon{width:42px!important;height:42px!important;flex:0 0 42px;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon]{background-image:url("themes/dad-navigation-v3.png")!important;background-size:400% 300%!important;background-repeat:no-repeat!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon img{width:42px!important;height:42px!important;object-fit:contain!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="0"]{background-position:0.0% 0.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="1"]{background-position:33.33333333333333% 0.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="2"]{background-position:66.66666666666666% 0.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="3"]{background-position:100.0% 0.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="4"]{background-position:0.0% 50.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="5"]{background-position:33.33333333333333% 50.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="7"]{background-position:100.0% 50.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="8"]{background-position:0.0% 100.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="9"]{background-position:33.33333333333333% 100.0%!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="10"]{background-position:66.66666666666666% 100.0%!important;}
+html[data-theme="dad"] .brand-icon{background-image:url("themes/dad-navigation-v3.png")!important;background-size:400% 300%!important;background-position:100% 100%!important;background-repeat:no-repeat!important;border-radius:0!important;}
+html[data-theme="dad"] body .shell img[src*="#dad-cartridge-"]{background-image:url("themes/dad-cartridges-v2.png")!important;background-size:400% 200%!important;background-repeat:no-repeat!important;object-fit:contain;}
+html[data-theme="dad"] body .shell img[src$="#dad-cartridge-play"]{background-position:0.0% 0%!important;}
+html[data-theme="dad"] body .shell img[src$="#dad-cartridge-monster"]{background-position:33.33333333333333% 0%!important;}
+html[data-theme="dad"] body .shell img[src$="#dad-cartridge-homebuilder"]{background-position:66.66666666666666% 0%!important;}
+html[data-theme="dad"] body .shell img[src$="#dad-cartridge-goblin"]{background-position:100.0% 0%!important;}
+html[data-theme="dad"] body .shell img[src$="#dad-cartridge-potion"]{background-position:0.0% 100%!important;}
+html[data-theme="dad"] body .shell img[src$="#dad-cartridge-mimic"]{background-position:33.33333333333333% 100%!important;}
+html[data-theme="dad"] body .shell img[src$="#dad-cartridge-spellbook"]{background-position:66.66666666666666% 100%!important;}
+html[data-theme="dad"] .game-card-art img[data-game-id][src*="#dad-cartridge-"]{height:auto!important;aspect-ratio:1;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="0"]{background-size:150.75068493150684px 113.06301369863014px!important;background-position:1.7397260273972595px 2.0px!important;clip-path:inset(2.0px 2.7808219178082183px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="1"]{background-size:164.2507462686567px 123.18805970149255px!important;background-position:-40.537313432835816px -1.629850746268657px!important;clip-path:inset(2.0px 3.4746268656716417px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="2"]{background-size:138.59949622166246px 103.94962216624685px!important;background-position:-67.29974811083123px 1.8564231738035266px!important;clip-path:inset(7.120906801007557px 2.0px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="3"]{background-size:162.3126843657817px 121.73451327433628px!important;background-position:-123.71386430678467px -1.1386430678466075px!important;clip-path:inset(2.0px 3.849557522123895px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="4"]{background-size:163.76190476190476px 122.82142857142857px!important;background-position:-1.2232142857142865px -40.75px!important;clip-path:inset(2.0px 2.8482142857142847px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="5"]{background-size:164.7425149700599px 123.55688622754491px!important;background-position:-42.029940119760475px -41.119760479041915px!important;clip-path:inset(2.0px 5.868263473053894px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="7"]{background-size:156.76353276353277px 117.57264957264957px!important;background-position:-116.33048433048432px -38.54415954415954px!important;clip-path:inset(4.435897435897434px 2.0px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="8"]{background-size:165.73493975903614px 124.3012048192771px!important;background-position:0.2831325301204821px -80.75301204819277px!important;clip-path:inset(2.457831325301207px 2.0px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="9"]{background-size:151.58126721763085px 113.68595041322314px!important;background-position:-36.209366391184574px -72.84848484848484px!important;clip-path:inset(2.0px 3.988980716253444px)!important;}
+html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="10"]{background-size:152.84444444444443px 114.63333333333334px!important;background-position:-75.05555555555556px -74.73888888888888px!important;clip-path:inset(2.844444444444445px 2.0px)!important;}
+html[data-theme="dad"] .brand-icon{background-size:188.1581920903955px 141.1186440677966px!important;background-position:-140.1581920903955px -91.03954802259886px!important;clip-path:inset(2.0px 2.9096045197740104px)!important;}

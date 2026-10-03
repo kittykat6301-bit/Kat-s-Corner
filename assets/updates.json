@@ -1,5 +1,9 @@
 [
   {
+    "title": "October 3, 2026 · Dad’s guild gets its own artwork",
+    "note": "Kat approved Ma’s cleaner icons and asked for the next room. Dad’s Evergreen Guildhall now has a coordinated forest-green, oak and brass illustrated menu and seven matching cartridges. Whisper stays the mascot, Settings has a proper gear, and Gerald uses his established guild portrait. The existing guildhall, study, cat and Gerald artwork are included as local GitHub files alongside the new sheets. Dad-owned images no longer retry the original Site. Shared artwork inside the games and the other themes remain for later passes. — Gerald"
+  },
+  {
     "title": "October 3, 2026 · No more clipped garden icons",
     "note": "Kat spotted icons being cut off and stray pieces from neighboring illustrations. The artwork was not spaced as evenly as the menu grid assumed. We fitted each illustration using its actual bounds, removed the extra trimming, and used Gerald’s standalone garden-clerk portrait so his antenna and feet stay visible. — Gerald"
   },
