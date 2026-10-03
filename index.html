@@ -61,8 +61,8 @@
   <link rel="stylesheet" href="assets/extra-themes.css?v=3">
   <link rel="stylesheet" href="assets/tv-system.css?v=1">
   <link rel="stylesheet" href="assets/ui/icon-system.css?v=6">
-  <link rel="stylesheet" href="assets/restoration-fixes.css?v=87">
-<script src="assets/recovery-assets.js?v=87" defer></script>
+  <link rel="stylesheet" href="assets/restoration-fixes.css?v=89">
+<script src="assets/recovery-assets.js?v=89" defer></script>
 </head>
 <body>
   <div class="shell">
@@ -135,7 +135,7 @@
       document.title = `${current === 'home' ? 'Kat’s Corner' : current === 'games' ? 'Game shelf' : current === 'play' ? 'Choose Your Fate' : current === 'arcade-game' ? document.getElementById('arcade-heading').textContent || 'Arcade game' : current === 'gerald' ? 'Gerald’s Room' : ({characters:'Characters',mascots:'Mascots',records:'Records',achievements:'Achievements',about:'About',settings:'Settings',updates:'Update logs'}[current] || 'Kat’s Corner')} · ${document.documentElement.dataset.theme === 'kat' ? 'Kat’s Goblin Den' : document.documentElement.dataset.theme === 'gerald' ? 'Gerald’s Neon Archive' : document.documentElement.dataset.theme === 'alex' ? 'The Red Lantern Cinema' : document.documentElement.dataset.theme === 'game-room' ? 'Classic Game Room' : window.katsExtraThemes?.[document.documentElement.dataset.theme]?.title || 'Pastel Arcade'}`;
     }
     addEventListener('hashchange',showRoute);showRoute();
-    fetch('assets/updates.json?v=87').then(response => {if(!response.ok)throw Error('Archive unavailable');return response.json()}).then(entries => {
+    fetch('assets/updates.json?v=89').then(response => {if(!response.ok)throw Error('Archive unavailable');return response.json()}).then(entries => {
       const list = document.getElementById('log');list.replaceChildren();
       entries.forEach((entry,index) => {
         const card = document.createElement('details');card.className='entry';card.open=index===0;
@@ -153,7 +153,7 @@
   <script src="assets/choose-your-fate.js" defer></script>
   <script src="assets/arcade-games.js?v=51" defer></script>
   <script src="assets/extra-themes.js?v=2" defer></script>
-  <script src="assets/theme-system.js?v=87" defer></script>
+  <script src="assets/theme-system.js?v=89" defer></script>
   <script src="assets/gerald-room.js?v=13" defer></script>
   <script src="assets/tv-system.js?v=1" defer></script>
   <script src="assets/world-buddies.js?v=1" defer></script>
@@ -161,6 +161,6 @@
   <script src="assets/alex-theme.js?v=1" defer></script>
   <script src="assets/gerald-theme.js?v=1" defer></script>
   <script src="assets/kat-theme.js?v=1" defer></script>
-<script src="assets/illustrated-navigation.js?v=87" defer></script>
+<script src="assets/illustrated-navigation.js?v=89" defer></script>
 </body>
 </html>

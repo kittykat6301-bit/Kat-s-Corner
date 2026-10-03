@@ -6,6 +6,8 @@
     const url = new URL(image.currentSrc || image.src, document.baseURI);
     const marker = url.pathname.indexOf('/assets/');
     if (marker < 0 || url.origin !== location.origin) return;
+    if (/\/assets\/(?:themes\/(?:mama|hayley|emmy|journey|spencer)-[^/]+|(?:buddies\/|gerald\/gerald-)(?:mama|hayley|emmy|journey|spencer)\.webp)$/.test(url.pathname)) return;
+    if (/\/assets\/(?:themes\/(?:fantasy|cozy|memaw|derek)-[^/]+|(?:buddies\/|gerald\/gerald-)(?:fantasy|cozy|memaw|derek)\.webp)$/.test(url.pathname)) return;
     if (url.pathname === "/assets/buddies/midnight.webp") return;
     if (/\/assets\/(?:themes\/(?:alex|midnight)-[^/]+|gerald\/(?:gerald-alex|gerald-midnight)\.webp)$/.test(url.pathname)) return;
     if (/\/assets\/(?:themes\/(?:kat|gerald)-[^/]+|gerald\/(?:gerald-kat|gerald-archive-full)\.webp)$/.test(url.pathname)) return;
