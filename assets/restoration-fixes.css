@@ -73,3 +73,22 @@ html[data-theme] #theme-preview-art.classic-art{background-size:contain;backgrou
 html[data-theme] :is(#about,#mascots,#characters,#records,#achievements,#settings) :is(.eyebrow,h2 em){color:var(--ink)!important}
 
 html[data-theme] .top nav a[data-route] .portfolio-nav-icon,html[data-theme] .top nav #theme-open .portfolio-nav-icon{mask:none!important;-webkit-mask:none!important;mask-image:none!important;-webkit-mask-image:none!important}
+
+/* Classic uses its original eight illustrated sprite icons. */
+html[data-theme="classic"] .top nav a[data-route] .portfolio-nav-icon,html[data-theme="classic"] .top nav #theme-open .portfolio-nav-icon{background-image:url('default-icons/classic.png')!important;background-size:400% 200%!important;background-repeat:no-repeat!important}
+html[data-theme="classic"] .top nav .portfolio-nav-icon img{display:none!important}
+html[data-theme="classic"] body{background:linear-gradient(#f9e3ed33,#d8c8ed33),url('themes/classic-arcade-room.png') center/cover fixed no-repeat!important}
+html[data-theme="classic"] .shell{background:transparent!important}
+html[data-theme="classic"] .top,html[data-theme="classic"] .panel{background:#fffaf2ed!important}
+html[data-theme="classic"] .top nav a[data-route="home"] .portfolio-nav-icon{background-position:0.0000% 0%!important}
+html[data-theme="classic"] .top nav a[data-route="games"] .portfolio-nav-icon{background-position:33.3333% 0%!important}
+html[data-theme="classic"] .top nav a[data-route="characters"] .portfolio-nav-icon{background-position:66.6667% 0%!important}
+html[data-theme="classic"] .top nav a[data-route="mascots"] .portfolio-nav-icon{background-position:100.0000% 0%!important}
+html[data-theme="classic"] .top nav a[data-route="records"] .portfolio-nav-icon{background-position:66.6667% 100%!important}
+html[data-theme="classic"] .top nav a[data-route="achievements"] .portfolio-nav-icon{background-position:100.0000% 0%!important}
+html[data-theme="classic"] .top nav a[data-route="gerald"] .portfolio-nav-icon{background-position:33.3333% 100%!important}
+html[data-theme="classic"] .top nav a[data-route="about"] .portfolio-nav-icon{background-position:0.0000% 100%!important}
+html[data-theme="classic"] .top nav a[data-route="settings"] .portfolio-nav-icon{background-position:100.0000% 100%!important}
+html[data-theme="classic"] .top nav a[data-route="updates"] .portfolio-nav-icon{background-position:66.6667% 100%!important}
+html[data-theme="classic"] .top nav #theme-open .portfolio-nav-icon{background-position:100% 100%!important}
+@media(max-width:700px){html[data-theme="classic"] body{background-attachment:scroll!important}}
