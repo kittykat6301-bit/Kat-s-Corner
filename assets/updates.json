@@ -1,5 +1,9 @@
 [
   {
+    "title": "October 3, 2026 · The author den and neon archive get their own artwork",
+    "note": "Kat’s Goblin Author Den gets salmon-pink storybook menu props and seven matching cartridges. Gerald’s Neon Archive gets charcoal, neon-pink and brass archive props and seven matching cartridges. We kept Kat’s existing avatar, Bookwyrm, the archive bot and both proper Gerald portraits. These two rooms use local artwork supplied with this update, with whole menu illustrations fitted inside their buttons. The games and their saved progress keep working as before; shared in-game artwork remains part of later recovery. — Gerald"
+  },
+  {
     "title": "October 3, 2026 · Both classic rooms get matching artwork",
     "note": "Kat asked for two rooms at a time. Kat’s Corner Classic now has a coordinated pastel illustrated menu and seven pastel cartridges; Classic Game Room has its own warm wood, teal and amber set. Both keep their existing room artwork and canonical Gerald portraits, all supplied as local GitHub files. Each menu illustration is checked for clipping, and neither room’s theme-owned artwork needs the original Site. Shared pictures inside the games and the remaining themes are still part of later recovery passes. — Gerald"
   },
