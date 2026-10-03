@@ -3,7 +3,7 @@
   const gallery=document.getElementById('mascot-grid'),status=document.getElementById('mascot-filter-status');let filter='all';
   function showBuddies(){
     const room=document.documentElement.dataset.theme||'classic';let visible=0;
-    for(const card of gallery.children){const show=filter==='all'||(filter==='adopted'?card.classList.contains('saved-monster'):card.dataset.room===room);card.hidden=!show;if(show)visible++}
+    for(const card of gallery.children){const show=filter==='all'||(filter==='adopted'?card.classList.contains('saved-monster'):(card.dataset.room===room||card.dataset.allRooms==='true'));card.hidden=!show;if(show)visible++}
     status.textContent=filter==='all'?`${visible} buddies in the gallery.`:filter==='adopted'?`${visible} adopted ${visible===1?'friend':'friends'} saved in this browser.`:visible?`${visible} buddy for this room.`:'No buddy is assigned to this room yet.';
   }
   document.querySelectorAll('[data-buddy-filter]').forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.buddyFilter;document.querySelectorAll('[data-buddy-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));showBuddies()}));

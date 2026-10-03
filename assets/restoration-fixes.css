@@ -77,3 +77,10 @@ html[data-theme] .top nav a[data-route="about"] .portfolio-nav-icon{mask-image:u
 html[data-theme] .top nav a[data-route="settings"] .portfolio-nav-icon{mask-image:url("ui/settings.svg")!important;-webkit-mask-image:url("ui/settings.svg")!important}
 html[data-theme] .top nav a[data-route="updates"] .portfolio-nav-icon{mask-image:url("ui/updates.svg")!important;-webkit-mask-image:url("ui/updates.svg")!important}
 html[data-theme] .top nav #theme-open .portfolio-nav-icon{mask-image:url("ui/settings.svg")!important;-webkit-mask-image:url("ui/settings.svg")!important}
+
+/* Illustrated navigation overrides the previous line-icon masks. */
+html[data-theme] .top nav .portfolio-nav-icon{width:34px!important;height:34px!important;background:none!important;mask:none!important;-webkit-mask:none!important;mask-image:none!important;-webkit-mask-image:none!important}
+html[data-theme] .top nav .portfolio-nav-icon img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;max-width:none!important}
+html[data-theme] #theme-preview-icons{display:none!important}
+html[data-theme] #theme-preview-art.classic-art{background-size:contain;background-repeat:no-repeat;background-color:#fbd2df}
+html[data-theme] :is(#about,#mascots,#characters,#records,#achievements,#settings) :is(.eyebrow,h2 em){color:var(--ink)!important}

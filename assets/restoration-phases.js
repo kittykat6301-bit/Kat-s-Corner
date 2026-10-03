@@ -2,7 +2,7 @@
 (() => {
   const base='assets/themes/';
   const rooms=[
-    ['Kat','Goblin Author Den','kat-den.webp'],['Gerald','Neon Archive','gerald-neon-archive.webp'],['Alex','Red Lantern Cinema','alex-cinema.webp'],['Dad','Evergreen Guildhall','dad-guildhall.webp'],['Ma / Janelle','Rosewood Conservatory','ma-conservatory.webp'],['Mama','Room','mama-room.webp'],['Memaw','Room','memaw-room.webp'],['Derek','Room','derek-room.webp'],['Spencer','Hero Launchpad','spencer-room.webp'],['Emmy','Room','emmy-room.webp'],['Hayley','Room','hayley-room.webp'],['Kat’s Corner','Classic Arcade','classic-characters.webp'],['Kat’s Corner','Classic Game Room','game-room.webp'],['Midnight Terminal','Room','midnight-room.webp'],['Fantasy Tavern','Room','fantasy-room.webp'],['Cozy Console Den','Room','cozy-room.webp'],['Crimson Moon Keep','Journey’s Room','journey-room.webp']
+    ['Kat','Goblin Author Den','kat-den.webp'],['Gerald','Neon Archive','gerald-neon-archive.webp'],['Alex','Red Lantern Cinema','alex-cinema.webp'],['Dad','Evergreen Guildhall','dad-guildhall.webp'],['Ma / Janelle','Rosewood Conservatory','ma-conservatory.webp'],['Mama','Room','mama-room.webp'],['Memaw','Room','memaw-room.webp'],['Derek','Room','derek-room.webp'],['Spencer','Hero Launchpad','spencer-room-v2.webp'],['Emmy','Room','emmy-room.webp'],['Hayley','Room','hayley-room.webp'],['Kat’s Corner','Classic Arcade','classic-arcade.svg'],['Kat’s Corner','Classic Game Room','game-room.webp'],['Midnight Terminal','Room','midnight-room.webp'],['Fantasy Tavern','Room','fantasy-room.webp'],['Cozy Console Den','Room','cozy-room.webp'],['Crimson Moon Keep','Journey’s Room','journey-room.webp']
   ];
   const buddies=[
     ['Studio cat','Always in the frame','themes/alex-cat.webp'],['Whisper','Dad’s guild chair belongs to Whisper','themes/dad-whisper.webp'],['Garden rabbit','At Ma’s garden desk','themes/ma-rabbit.webp'],['Archive Bot','Gerald’s filing assistant','themes/gerald-archive-bot.webp'],['Phosphor Ghost','Midnight Terminal','buddies/midnight.webp'],['Inn Fox','Fantasy Tavern','buddies/fantasy.webp'],['Console Dust Bunny','Cozy Console Den','buddies/cozy.webp'],['Smokey','Memaw’s lavender hearth','buddies/memaw.webp'],['Bubblewood Badger','Derek’s cottage','buddies/derek.webp'],['Porch Hen','Mama’s porch','buddies/mama.webp'],['Honeybell Songbird','Hayley’s burrow','buddies/hayley.webp'],['Café Familiar','Emmy’s window booth','buddies/emmy.webp'],['Moon Keep Fox','Journey’s keep','buddies/journey.webp'],['Zap Rover','Spencer’s launchpad','buddies/spencer.webp']
@@ -18,6 +18,7 @@
   });
   const mascots=document.getElementById('mascot-grid'),buddyRooms=['alex','dad','ma','gerald','midnight','fantasy','cozy','memaw','derek','mama','hayley','emmy','journey','spencer'];
   mascots.append(...buddies.map(([name,note,image],index)=>{const tile=card(name,note,image,'Companion');tile.dataset.room=buddyRooms[index];return tile}));
+  const geraldMascot=card('Gerald','Kat’s robot assistant, co-builder and arcade mascot. Glasses and bow tie included.','gerald/gerald-arcade.webp','Mascot');geraldMascot.dataset.allRooms='true';mascots.prepend(geraldMascot);
   const read=(key,fallback)=>{try{const value=JSON.parse(localStorage.getItem(key));return value??fallback}catch{return fallback}};
   function refresh(){
     const adopted=read('kats-corner-monsters',[]);
