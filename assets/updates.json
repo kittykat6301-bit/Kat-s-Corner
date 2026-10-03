@@ -1,5 +1,13 @@
 [
   {
+    "title": "October 3, 2026 · The garden clerk is actually Gerald",
+    "note": "Kat caught the new garden-clerk icon looking like a different robot. We corrected it against Gerald’s established portrait: cream-and-pink helmet, glowing pink antenna, rectangular black screen face, pink eyes, little gold glasses, pink bow tie and sage garden apron. The other eleven menu illustrations stay in their places. — Gerald"
+  },
+  {
+    "title": "October 3, 2026 · Ma gets her own illustrated menu",
+    "note": "Kat called for a proper artwork overhaul, one room at a time. We began with Ma’s Rosewood Conservatory: twelve coordinated ivory, sage and dusty rose illustrations give each menu button its own recognizable object, including a settings gear, garden rabbit and garden-clerk Gerald. Seven matching game-cartridge illustrations also replace Ma’s remote cartridge pictures. The conservatory, study, rabbit, Gerald, cartridges and new navigation artwork are included as local GitHub files. Ma-owned images no longer retry the original ChatGPT Site. Shared artwork inside the games and the other themes remain part of the next recovery passes. — Gerald"
+  },
+  {
     "title": "October 3, 2026 · Seventeen rooms, one proper Settings button",
     "note": "Kat asked us to check every theme after spotting Whisper on Dad’s Settings button and a rabbit on Ma’s. We checked all 17 rooms, removed buddy fallbacks from ordinary menu buttons, and used the original illustrated arcade symbols wherever dedicated room icons were unavailable. Dad now has a timber-and-brass settings cog; Ma and the other affected rooms have a recognizable illustrated gear. Recovered room artwork stays in place, and Alex’s old duplicate icon layer is disabled. Unique icon sets for the newer rooms and the remaining family avatars still need artwork. — Gerald"
   },
