@@ -201,3 +201,75 @@ html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="8"]{backgroun
 html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="9"]{background-size:151.58126721763085px 113.68595041322314px!important;background-position:-36.209366391184574px -72.84848484848484px!important;clip-path:inset(2.0px 3.988980716253444px)!important;}
 html[data-theme="dad"] .top nav .portfolio-nav-icon[data-dad-icon="10"]{background-size:152.84444444444443px 114.63333333333334px!important;background-position:-75.05555555555556px -74.73888888888888px!important;clip-path:inset(2.844444444444445px 2.0px)!important;}
 html[data-theme="dad"] .brand-icon{background-size:188.1581920903955px 141.1186440677966px!important;background-position:-140.1581920903955px -91.03954802259886px!important;clip-path:inset(2.0px 2.9096045197740104px)!important;}
+
+/* Independent coordinated artwork for both original arcade rooms. */
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon{width:42px!important;height:42px!important;flex:0 0 42px;clip-path:none!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon]{background-image:url("themes/classic-navigation-v4.png")!important;background-size:400% 300%!important;background-repeat:no-repeat!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon img{display:block!important;width:42px!important;height:42px!important;object-fit:contain!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon:has(img){background:none!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="0"]{background-position:0.0% 0.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="1"]{background-position:33.33333333333333% 0.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="2"]{background-position:66.66666666666666% 0.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="3"]{background-position:100.0% 0.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="4"]{background-position:0.0% 50.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="5"]{background-position:33.33333333333333% 50.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="7"]{background-position:100.0% 50.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="8"]{background-position:0.0% 100.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="9"]{background-position:33.33333333333333% 100.0%!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="10"]{background-position:66.66666666666666% 100.0%!important;}
+html[data-theme="classic"] .brand-icon{background-image:url("themes/classic-navigation-v4.png")!important;background-size:400% 300%!important;background-position:100% 100%!important;background-repeat:no-repeat!important;}
+html[data-theme="classic"] body .shell img[src*="#classic-cartridge-"]{background-image:url("themes/classic-cartridges-v2.png")!important;background-size:400% 200%!important;background-repeat:no-repeat!important;object-fit:contain;}
+html[data-theme="classic"] body .shell img[src$="#classic-cartridge-play"]{background-position:0.0% 0%!important;}
+html[data-theme="classic"] body .shell img[src$="#classic-cartridge-monster"]{background-position:33.33333333333333% 0%!important;}
+html[data-theme="classic"] body .shell img[src$="#classic-cartridge-homebuilder"]{background-position:66.66666666666666% 0%!important;}
+html[data-theme="classic"] body .shell img[src$="#classic-cartridge-goblin"]{background-position:100.0% 0%!important;}
+html[data-theme="classic"] body .shell img[src$="#classic-cartridge-potion"]{background-position:0.0% 100%!important;}
+html[data-theme="classic"] body .shell img[src$="#classic-cartridge-mimic"]{background-position:33.33333333333333% 100%!important;}
+html[data-theme="classic"] body .shell img[src$="#classic-cartridge-spellbook"]{background-position:66.66666666666666% 100%!important;}
+html[data-theme="classic"] .game-card-art img[data-game-id][src*="#classic-cartridge-"]{height:auto!important;aspect-ratio:1;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon{width:42px!important;height:42px!important;flex:0 0 42px;clip-path:none!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon]{background-image:url("themes/game-room-navigation-v2.png")!important;background-size:400% 300%!important;background-repeat:no-repeat!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon img{display:block!important;width:42px!important;height:42px!important;object-fit:contain!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon:has(img){background:none!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="0"]{background-position:0.0% 0.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="1"]{background-position:33.33333333333333% 0.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="2"]{background-position:66.66666666666666% 0.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="3"]{background-position:100.0% 0.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="4"]{background-position:0.0% 50.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="5"]{background-position:33.33333333333333% 50.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="7"]{background-position:100.0% 50.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="8"]{background-position:0.0% 100.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="9"]{background-position:33.33333333333333% 100.0%!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="10"]{background-position:66.66666666666666% 100.0%!important;}
+html[data-theme="game-room"] .brand-icon{background-image:url("themes/game-room-navigation-v2.png")!important;background-size:400% 300%!important;background-position:100% 100%!important;background-repeat:no-repeat!important;}
+html[data-theme="game-room"] body .shell img[src*="#game-room-cartridge-"]{background-image:url("themes/game-room-cartridges-v2.png")!important;background-size:400% 200%!important;background-repeat:no-repeat!important;object-fit:contain;}
+html[data-theme="game-room"] body .shell img[src$="#game-room-cartridge-play"]{background-position:0.0% 0%!important;}
+html[data-theme="game-room"] body .shell img[src$="#game-room-cartridge-monster"]{background-position:33.33333333333333% 0%!important;}
+html[data-theme="game-room"] body .shell img[src$="#game-room-cartridge-homebuilder"]{background-position:66.66666666666666% 0%!important;}
+html[data-theme="game-room"] body .shell img[src$="#game-room-cartridge-goblin"]{background-position:100.0% 0%!important;}
+html[data-theme="game-room"] body .shell img[src$="#game-room-cartridge-potion"]{background-position:0.0% 100%!important;}
+html[data-theme="game-room"] body .shell img[src$="#game-room-cartridge-mimic"]{background-position:33.33333333333333% 100%!important;}
+html[data-theme="game-room"] body .shell img[src$="#game-room-cartridge-spellbook"]{background-position:66.66666666666666% 100%!important;}
+html[data-theme="game-room"] .game-card-art img[data-game-id][src*="#game-room-cartridge-"]{height:auto!important;aspect-ratio:1;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="0"]{background-size:168.2691131498471px 126.20183486238533px!important;background-position:-1.660550458715596px -2.6483180428134556px!important;clip-path:inset(2.0px 2.4067278287461775px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="1"]{background-size:162.79289940828403px 122.09467455621302px!important;background-position:-40.834319526627226px -2.497041420118343px!important;clip-path:inset(2.0px 5.2603550295857975px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="2"]{background-size:149.92915531335152px 112.44686648501363px!important;background-position:-74.10354223433242px -2.0899182561307903px!important;clip-path:inset(5.67574931880109px 2.0px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="3"]{background-size:177.4967741935484px 133.1225806451613px!important;background-position:-136.51612903225805px -6.825806451612904px!important;clip-path:inset(2.9806451612903224px 2.0px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="4"]{background-size:162.79289940828403px 122.09467455621302px!important;background-position:-1.597633136094676px -41.28402366863906px!important;clip-path:inset(2.0px 3.46153846153846px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="5"]{background-size:161.3607038123167px 121.02052785923753px!important;background-position:-41.12609970674487px -40.903225806451616px!important;clip-path:inset(2.0px 4.5630498533724335px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="7"]{background-size:155.43502824858757px 116.57627118644068px!important;background-position:-115.00564971751412px -39.97175141242938px!important;clip-path:inset(5.327683615819209px 2.0px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="8"]{background-size:169.30461538461537px 126.97846153846153px!important;background-position:-2.676923076923077px -82.76923076923076px!important;clip-path:inset(2.584615384615386px 2.0px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="9"]{background-size:175.23566878980893px 131.42675159235668px!important;background-position:-46.22611464968153px -86.34394904458598px!important;clip-path:inset(2.0px 3.14968152866242px)!important;}
+html[data-theme="classic"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="10"]{background-size:159.48985507246377px 119.61739130434782px!important;background-position:-78.73623188405797px -77.19420289855073px!important;clip-path:inset(4.3130434782608695px 2.0px)!important;}
+html[data-theme="classic"] .brand-icon{background-size:195.90588235294118px 146.92941176470586px!important;background-position:-146.8235294117647px -95.34411764705882px!important;clip-path:inset(4.097058823529412px 2.0px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="0"]{background-size:170.35294117647058px 127.76470588235294px!important;background-position:-1.6470588235294112px -3.88235294117647px!important;clip-path:inset(2.0px 6.0px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="1"]{background-size:169.82716049382717px 127.37037037037037px!important;background-position:-42.62654320987654px -3.864197530864197px!important;clip-path:inset(2.0px 4.287037037037038px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="2"]{background-size:159.48985507246377px 119.61739130434782px!important;background-position:-79.5072463768116px -4.333333333333334px!important;clip-path:inset(7.782608695652174px 2.0px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="3"]{background-size:177.4967741935484px 133.1225806451613px!important;background-position:-136.51612903225805px -7.438709677419354px!important;clip-path:inset(4.819354838709678px 2.0px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="4"]{background-size:170.35294117647058px 127.76470588235294px!important;background-position:-1.0px -45.05882352941176px!important;clip-path:inset(2.0px 5.117647058823529px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="5"]{background-size:183.41333333333336px 137.56px!important;background-position:-48.03333333333333px -50.94666666666667px!important;clip-path:inset(2.0px 2.8866666666666667px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="7"]{background-size:156.76353276353277px 117.57264957264957px!important;background-position:-116.00569800569801px -41.19658119658119px!important;clip-path:inset(6.438746438746438px 2.0px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="8"]{background-size:183.41333333333336px 137.56px!important;background-position:-2.3066666666666666px -92.74666666666667px!important;clip-path:inset(2.0px 2.0px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="9"]{background-size:186.52203389830507px 139.8915254237288px!important;background-position:-50.42711864406779px -94.35254237288136px!important;clip-path:inset(2.0px 2.386440677966103px)!important;}
+html[data-theme="game-room"] .top nav .portfolio-nav-icon.portfolio-nav-icon[data-pair-icon="10"]{background-size:166.73939393939395px 125.05454545454546px!important;background-position:-82.06060606060606px -82.75151515151516px!important;clip-path:inset(4.303030303030301px 2.0px)!important;}
+html[data-theme="game-room"] .brand-icon{background-size:193.06666666666666px 144.8px!important;background-position:-144.66666666666666px -93.66666666666667px!important;clip-path:inset(4.333333333333332px 2.0px)!important;}

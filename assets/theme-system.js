@@ -19,7 +19,7 @@
   };
   Object.assign(themes,window.katsExtraThemes||{});
   const current=()=>themes[root.dataset.theme]?root.dataset.theme:'classic';
-  const gameArt=(id,theme=current())=>theme==='dad'?`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3C/svg%3E#dad-cartridge-${id}`:theme==='ma'?`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3C/svg%3E#ma-cartridge-${id}`:theme==='classic'?(id==='play'?'assets/choose-your-fate-cartridge.png':`assets/games/${id}-icon.webp`):`assets/cartridges/${theme}-${id}.webp`;
+  const gameArt=(id,theme=current())=>(theme==='classic'||theme==='game-room')?`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3C/svg%3E#${theme}-cartridge-${id}`:theme==='dad'?`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3C/svg%3E#dad-cartridge-${id}`:theme==='ma'?`data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3C/svg%3E#ma-cartridge-${id}`:theme==='classic'?(id==='play'?'assets/choose-your-fate-cartridge.png':`assets/games/${id}-icon.webp`):`assets/cartridges/${theme}-${id}.webp`;
   window.themeGameArt=id=>gameArt(id);
   let selected=current();
   function refreshImages(){
