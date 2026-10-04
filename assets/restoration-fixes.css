@@ -613,3 +613,11 @@ html[data-theme="spencer"] .game-card-art img[data-game-id][src*="#spencer-cartr
 .game-choice,.game-content h3,.game-content .eyebrow{color:#302744!important;}
 .arcade-status,#save-import-preview{overflow-wrap:anywhere;}
 @media(max-width:430px){.top nav{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:6px!important;}.top nav :is(a,button){min-width:0;min-height:44px;white-space:normal!important;overflow-wrap:anywhere;}.top nav .portfolio-nav-icon{flex-shrink:0;}.panel{padding:18px!important;}.game-content,.arcade-content{padding:14px!important;}.mimic-row{grid-template-columns:1fr!important;}.tv-panel button{min-height:44px!important;}.arcade-field{width:100%;min-width:0;box-sizing:border-box;}.arcade-title{min-width:0;}.arcade-title h2{overflow-wrap:anywhere;}}
+
+/* Let the page scroll; game screens grow with their content. */
+.tv-stage:not(.tv-expanded) .tv-screen{max-height:none!important;overflow:visible!important;}
+html[data-theme="classic"] #games>.game-card,html[data-theme="classic"] .screen-cartridge,html[data-theme="classic"] .tv-console{display:none!important;}
+html[data-theme="classic"] .tv-stage[data-stage="shelf"] .tv-menu{min-height:0!important;}
+.audio-controls label{display:flex;align-items:center;gap:10px;margin:12px 0;}.audio-controls input[type="range"]{width:100%;}.audio-controls button{min-height:44px;}
+
+html[data-theme="classic"] #home .machine{display:none!important;}html[data-theme="classic"] #home .home-grid{grid-template-columns:1fr;}

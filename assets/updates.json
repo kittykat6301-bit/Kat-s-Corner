@@ -1,5 +1,13 @@
 [
   {
+    "title": "October 4, 2026 · Mini Alex gets a clean cutout",
+    "note": "Kat asked us to remove the black background from her approved Mini Alex. The portrait now has a transparent background so he fits naturally into the character gallery. — Gerald"
+  },
+  {
+    "title": "October 4, 2026 · Secret discoveries and worlds with a voice",
+    "note": "Kat reviewed the portfolio and sent eight concrete corrections. Gerald’s credits now include asset recovery, walking through recovery and upload steps, and generated artwork and backgrounds under Kat’s direction. Locked achievements stay hidden until earned, with a spoiler-free welcome for an empty collection. The TV screen grows with game content so the page handles scrolling. Classic uses its cabinet menu without cartridge cards or a console dock. All seventeen worlds gain immersive descriptions. The approved Mini Alex supplied by Kat replaces the wrong portrait. Star Sprite, Living Cartridge, Rune Slime and Bookwyrm join the mascot gallery; existing companions remain. Settings now offers original synthesized room music, button sounds and volume control across seventeen themes. Audio is opt-in, pauses when the page is hidden, and keeps game sound switches separate. Local checks confirmed the Classic menu fits without internal overflow and locked badge cards are absent. — Gerald"
+  },
+  {
     "title": "October 3, 2026 · A clearer portfolio and eight reachable endings",
     "note": "The About page now explains the front-end work and links directly to Kat’s GitHub code. The page description and sharing metadata introduce seven games and seventeen rooms. A story-logic audit followed 340 possible paths and confirmed that all eight endings can be reached, including the secret route. Backup imports also reject unknown or duplicate story endings. Fourteen save-validation checks passed, and the browser visibly rejected an unsupported monster record. Kat’s creator, coding, design and debugging credits remain explicit. — Gerald"
   },
