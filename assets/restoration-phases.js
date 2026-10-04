@@ -16,6 +16,7 @@
     const id=roomIds[index-1],button=document.createElement('button');button.type='button';button.className='room-preview-button';button.textContent='Preview this room';
     button.addEventListener('click',()=>{document.getElementById('theme-open').click();document.querySelector(`[data-preview-theme="${id}"]`)?.click()});tile.append(button);
   });
+  document.querySelector('#character-grid .restoration-card').after(card('Alex’s avatar','The person behind the Red Lantern Cinema','alex-mini-cutout.webp','Avatar'),card('Gerald','Kat’s robot assistant and arcade mascot','gerald/gerald-archive-full.webp','Avatar'));
   const mascots=document.getElementById('mascot-grid'),buddyRooms=['alex','dad','ma','gerald','midnight','fantasy','cozy','memaw','derek','mama','hayley','emmy','journey','spencer'];
   mascots.append(...buddies.map(([name,note,image],index)=>{const tile=card(name,note,image,'Companion');tile.dataset.room=buddyRooms[index];return tile}));
   const geraldMascot=card('Gerald','Kat’s robot assistant, co-builder and arcade mascot. Glasses and bow tie included.','gerald/gerald-arcade.webp','Mascot');geraldMascot.dataset.allRooms='true';mascots.prepend(geraldMascot);
@@ -53,18 +54,21 @@
   document.getElementById('settings-themes').addEventListener('click',()=>document.getElementById('theme-open').click());
   const gameKeys=['kats-corner-choose-your-fate-v1','kats-corner-monsters','fae-fate-cottage','kats-corner-goblin-best','kats-corner-potion-best','kats-corner-spellbook-miscasts-v1'];
   const valid=(key,value)=>{
-    if(key===gameKeys[0])return value&&typeof value==='object'&&!Array.isArray(value)&&Array.isArray(value.endings)&&value.endings.length<=8&&value.endings.every(x=>typeof x==='string'&&x.length<32)&&Number.isInteger(value.decisions)&&value.decisions>=0&&value.decisions<1e7&&typeof value.sound==='boolean';
-    if(key===gameKeys[1])return Array.isArray(value)&&value.length<=20&&value.every(x=>x&&typeof x==='object'&&typeof x.name==='string'&&x.name.length<=24&&typeof x.species==='string'&&x.species.length<32);
+    if(key===gameKeys[0])return value&&typeof value==='object'&&!Array.isArray(value)&&Array.isArray(value.endings)&&value.endings.length<=8&&value.endings.every(x=>['knight','mage','rogue','healer','necromancer','dragon','tavern','hidden'].includes(x))&&new Set(value.endings).size===value.endings.length&&Number.isInteger(value.decisions)&&value.decisions>=0&&value.decisions<1e7&&typeof value.sound==='boolean';
+    if(key===gameKeys[1])return Array.isArray(value)&&value.length<=20&&value.every(x=>x&&typeof x==='object'&&typeof x.name==='string'&&x.name.length<=24&&['spriglet','puffwyrm','moonbun','mimic','bubble','ember'].includes(x.species));
     if(key===gameKeys[2])return value&&typeof value==='object'&&!Array.isArray(value)&&typeof value.name==='string'&&value.name.length<=40&&['walls','roof','sky','garden','friend'].every(x=>Number.isInteger(value[x])&&value[x]>=0&&value[x]<=2);
-    if(key===gameKeys[3]||key===gameKeys[4])return Number.isInteger(value)&&value>=0&&value<1e7;
-    if(key===gameKeys[5])return Array.isArray(value)&&value.length<=30&&value.every(x=>x&&typeof x==='object');
+    if(key===gameKeys[3])return Number.isInteger(value)&&value>=0&&value<1e7;
+    if(key===gameKeys[4])return Number.isInteger(value)&&value>=0&&value<=3;
+    if(key===gameKeys[5])return Array.isArray(value)&&value.length<=6&&value.every(x=>x&&typeof x==='object'&&!Array.isArray(x)&&Number.isInteger(x.page)&&x.page>=0&&x.page<=2&&typeof x.original==='string'&&x.original.length<=24&&typeof x.replacement==='string'&&x.replacement.length<=32);
     return false;
   };
   const backupStatus=document.getElementById('save-import-preview'),confirm=document.getElementById('save-import-confirm');let pending=null;
   document.getElementById('save-export').addEventListener('click',()=>{
     const saves={};for(const key of gameKeys){const value=read(key,null);if(value!==null&&valid(key,value))saves[key]=value}
+    if(!Object.keys(saves).length){backupStatus.textContent='No saved game progress yet. Play a game, then return to download your backup.';return}
+    backupStatus.textContent='Your backup download is ready. Keep the JSON file somewhere safe.';
     const blob=new Blob([JSON.stringify({format:'kats-corner-saves',version:1,saves},null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');
-    link.href=url;link.download='kats-corner-game-saves.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    link.href=url;link.download='kats-corner-game-saves.json';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
   });
   document.getElementById('save-import-file').addEventListener('change',async event=>{
     pending=null;confirm.disabled=true;const file=event.target.files?.[0];if(!file){backupStatus.textContent='No file selected.';return}
