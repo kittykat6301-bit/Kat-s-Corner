@@ -59,3 +59,5 @@ Additional checks: 340 story paths were traversed in a logic audit, and all eigh
 October 4 refinement: spoiler-free earned achievements, a Classic cabinet menu without cartridges, seventeen world descriptions, the approved Mini Alex, additional default mascots, and optional original Web Audio theme loops. Gerald’s contribution includes asset recovery, guided recovery steps and generated illustrations/backgrounds under Kat’s direction. Room audio starts only on user request; music volume is remembered and playback pauses in background tabs.
 
 October 5 audio pass: Classic and Classic Game Room have original layered synthesized music and ambience, independent controls and remembered volume levels. Other themes retain their earlier melodies. Control behavior and theme transitions were checked locally; sound quality and balance still need a listening review.
+
+Kat’s Goblin Author Den uses “Celtic Impulse” by Kevin MacLeod (incompetech.com), licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. The original recording is unedited; website playback is quieter. Full credit is in Settings and assets/audio/CREDITS.txt.
